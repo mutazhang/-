@@ -1,21 +1,28 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
+page{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  background-image: url('http://www.sj520.cn/sc/ima/20170417145729_60224.jpg')
+}
+
+.container{
+  padding: 0;
+}
+
+.tool {
+  font-size: 100rpx;
+  padding: 50rpx;
   align-items: center;
+  color: blanchedalmond;
+  font-weight: bold;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
 
-.userinfo-nickname {
+button {
   color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+  width: 250px;
+  height: 50px;
+  opacity: 0.8;
+  background-color: beige;
 }
